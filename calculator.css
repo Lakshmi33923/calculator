@@ -1,0 +1,27 @@
+.container {
+    align-items: center;
+    justify-content: center;
+    height: 400px;  /* Set height based on desired size of the calculator */
+    width: 300px;   /* Set width based on desired size */
+    margin: 100px auto;  /* Center the container on the screen */
+    padding: 20px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    background-color: rgb(247, 140, 140);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+#display{
+    width:200px;
+    height:50px;
+}
+button {
+    width: 60px;
+    height: 60px;
+    font-size: 20px;
+    margin: 5px;
+    background-color: #f0f0f0; /* Light background for the buttons */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
